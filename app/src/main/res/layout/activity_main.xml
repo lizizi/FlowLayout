@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.administrator.flowlayout.FlowLayout
+        android:id="@+id/flowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lineSpace="20dp"
+        app:flowTextColor="@android:color/holo_blue_dark"
+        app:flowTextBgColor="#cfcfcf"
+        app:flowTextCorner="20dp"
+        app:flowTextSize="12sp"
+        app:flowTextPaddingLeft="10dp"
+        app:flowTextPaddingRight="10dp"
+        app:flowTextPaddingTop="5dp"
+        app:flowTextPaddingBottom="5dp"
+        android:paddingTop="10dp"
+        >
+
+    </com.example.administrator.flowlayout.FlowLayout>
+
+</android.support.constraint.ConstraintLayout>

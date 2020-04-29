@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlowLayout">
+        <!--间距-->
+        <attr name="lineSpace" format="dimension"/>
+        <!--子view的margin-->
+        <attr name="flowTextLeftMargin" format="dimension"/>
+        <attr name="flowTextRightMargin" format="dimension"/>
+        <!--textview 字体颜色-->
+        <attr name="flowTextColor" format="color"/>
+        <!--textview 字体大小-->
+        <attr name="flowTextSize" format="dimension"/>
+        <!--textview 文本内容-->
+        <attr name="flowText" format="string"/>
+        <!--textview 背景颜色-->
+        <attr name="flowTextBgColor" format="color"/>
+        <!--textview 圆角-->
+        <attr name="flowTextCorner" format="dimension"/>
+        <!--textview padding-->
+        <attr name="flowTextPaddingLeft" format="dimension"/>
+        <attr name="flowTextPaddingRight" format="dimension"/>
+        <attr name="flowTextPaddingTop" format="dimension"/>
+        <attr name="flowTextPaddingBottom" format="dimension"/>
+    </declare-styleable>
+</resources>
