@@ -21,5 +21,7 @@
         <attr name="flowTextPaddingRight" format="dimension"/>
         <attr name="flowTextPaddingTop" format="dimension"/>
         <attr name="flowTextPaddingBottom" format="dimension"/>
+        <!--flowText默认显示的个数-->
+        <attr name="default_show_count" format="integer"/>
     </declare-styleable>
 </resources>

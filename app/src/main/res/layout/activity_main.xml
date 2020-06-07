@@ -23,6 +23,7 @@
         app:flowTextPaddingTop="5dp"
         app:flowTextPaddingBottom="5dp"
         android:paddingTop="10dp"
+        app:default_show_count="10"
         >
 
     </com.example.administrator.flowlayout.FlowLayout>
